@@ -7,7 +7,7 @@ body>header {
     background-color: dodgerblue;
 }
 
-nav > ul {
+.topoptions {
     list-style: none;
     padding-bottom: 16px;
 }
@@ -41,4 +41,5 @@ body>footer {
 body>footer>p {
     padding: 16px;
     text-align: center;
+    color: white;
 }
