@@ -7,10 +7,38 @@ body>header {
     background-color: dodgerblue;
 }
 
+nav > ul {
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+body>main>article {
+    width: 80%;
+    margin: auto;
+}
+
+
 .topaside {  width: 30%;
     padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
+    margin-left: 50px;
+    float: left;
+}
+
+.topimages { 
+    display: block;
+    float: left;
+}
+
+.bottomimage {
+    display: block;
+    float: center;
+}
+
+body>footer {
+    background-color: dodgerblue;
+}
+
+body>footer>p {
+    padding: 16px;
+    text-align: center;
 }
